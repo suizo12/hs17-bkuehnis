@@ -1,0 +1,7 @@
+.game {
+    width: 100%;
+    margin: 0;
+    padding: .5em;
+    text-align: center;
+    transition: background-color .3s ease;
+}

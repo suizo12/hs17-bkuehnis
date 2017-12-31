@@ -1,0 +1,124 @@
+/*!
+ * Start Bootstrap - Blog Post (https://startbootstrap.com/template-overviews/blog-post)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-post/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+/*
+AIR Date
+
+ */
+
+.datepicker--cell a:link, a:visited{
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/*
+NBA Colors
+ */
+.ATL{
+  color: #E13A3E;
+}
+BKN{
+  color: #061922;
+}
+
+.BOS{
+  color: #008348;
+}
+.CHA{
+  color: #1D1160;
+}
+.CHI{
+  color: #CE1141;
+}
+.CLE{
+  color: #860038;
+}
+.DAL{
+  color: #007DC5;
+}
+.DEN{
+  color: #4D90CD;
+}
+.DET{
+  color: #ED174C;
+}
+.GSW{
+  color: #FDB927;
+}
+
+.HOU{
+  color: #CE1141;
+}
+.IND{
+  color: #FFC633;
+}
+.LAC{
+  color: #ED174C;
+}
+.LAL{
+  color: #FDB927;
+}
+
+.MEM{
+  color: #0F586C;
+}
+.MIA{
+  color: #98002E;
+}
+.MIL{
+  color: #00471B;
+}
+.MIN{
+  color: #005083;
+}
+.NOP{
+  color: #002B5C;
+}
+.NYK{
+  color: #006BB6;
+}
+.OKC{
+  color: #007DC3;
+}
+.ORL{
+  color: #007DC5;
+}
+.PHI{
+  color: #ED174C;
+}
+.PHX{
+  color: #E56020;
+}
+.POR{
+  color: #E03A3E;
+}
+.SAC{
+  color: #724C9F;
+}
+.SAS{
+  color: #BAC3C9;
+}
+
+.TOR{
+  color: #CE1141;
+}
+.UTA{
+  color: #002B5C;
+}
+.WAS{
+  color: #002B5C;
+}

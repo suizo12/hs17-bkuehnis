@@ -1,0 +1,34 @@
+    {% block sidebar %}
+<!-- Sidebar Widgets Column -->
+        <div class="col-md-4">
+
+          <!-- Search Widget -->
+          <div class="card my-4">
+            <h5 class="card-header">Game Calendar</h5>
+            <div class="card-body">
+              <div class="input-group">
+                <input type="hidden" class="datepicker-here" data-language='en' />
+              </div>
+            </div>
+          </div>
+        </div>
+    <script>
+    // Initialization
+$('.datepicker-here').datepicker({
+    inline:true,
+    onRenderCell: function(date, cellType) {
+        var currentDate = date.getDate();
+        var month = ("0" + (date.getMonth() + 1)).slice(-2);
+        var day = ("0" + (date.getDate())).slice(-2);
+        if (cellType == 'day') {
+            return {
+                html: '<a href="/'+date.getFullYear()+'-'+month+'-'+day+'/" title="THis is a">'+ currentDate + '</a>'
+
+            }
+        }
+    }
+})
+// Access instance of plugin
+$('.datepicker-here').data('datepicker').selectDate(new Date({{ year }}, {{ month }}-1, {{ day }}))
+    </script>
+{% endblock %}

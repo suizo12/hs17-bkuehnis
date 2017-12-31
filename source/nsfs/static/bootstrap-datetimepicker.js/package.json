@@ -1,0 +1,50 @@
+{
+  "_from": "bootstrap-datetimepicker.js",
+  "_id": "bootstrap-datetimepicker.js@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-dt0ZSXIii2K7s+2G3WGR2AAswN4=",
+  "_location": "/bootstrap-datetimepicker.js",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "bootstrap-datetimepicker.js",
+    "name": "bootstrap-datetimepicker.js",
+    "escapedName": "bootstrap-datetimepicker.js",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bootstrap-datetimepicker.js/-/bootstrap-datetimepicker.js-1.0.0.tgz",
+  "_shasum": "76dd194972228b62bbb3ed86dd6191d8002cc0de",
+  "_spec": "bootstrap-datetimepicker.js",
+  "_where": "/Users/benjaminkuehnis/Documents/hsr/hs17/gameprediction/nsfs",
+  "author": {
+    "name": "smalot"
+  },
+  "bugs": {
+    "url": "https://github.com/ondrs/bootstrap-datetimepicker/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Both Date and Time picker widget based on twitter bootstrap (supports Bootstrap v2 and v3)",
+  "homepage": "https://github.com/ondrs/bootstrap-datetimepicker",
+  "keywords": [
+    "bootstrap",
+    "date",
+    "datetime",
+    "datepicker",
+    "datetimepicker"
+  ],
+  "license": "ISC",
+  "name": "bootstrap-datetimepicker.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ondrs/bootstrap-datetimepicker.git"
+  },
+  "version": "1.0.0"
+}
