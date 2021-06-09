@@ -25,7 +25,7 @@ nba-data==1.9
 nba-py==0.1.1a2
 numpy==1.13.3
 pandas==0.20.3
-pip==9.0.1
+pip==19.2
 psycopg2==2.7.3.1
 py-goldsberry==1.0.1
 pyparsing==2.2.0
