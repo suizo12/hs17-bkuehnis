@@ -23,7 +23,7 @@ kombu==3.0.37
 matplotlib==2.1.0
 nba-data==1.9
 nba-py==0.1.1a2
-numpy==1.13.3
+numpy==1.22.0
 pandas==0.20.3
 pip==9.0.1
 psycopg2==2.7.3.1
